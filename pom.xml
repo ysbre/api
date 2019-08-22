@@ -92,7 +92,7 @@
         <spring-data-releasetrain.version>Gosling-RELEASE</spring-data-releasetrain.version>
         <spring.version>4.2.5.RELEASE</spring.version>
         <spring.cloud.version>1.3.1.RELEASE</spring.cloud.version>
-        <application.version.number>${version}</application.version.number>
+        <application.version.number>${project.version}</application.version.number>
     </properties>
 
     <distributionManagement>
@@ -675,7 +675,7 @@
                             <announcementDirectory>.</announcementDirectory>
                             <announcementFile>RELEASE-NOTES.txt</announcementFile>
                             <announceParameters>
-                                <releaseVersion>${version}</releaseVersion>
+                                <releaseVersion>${project.version}</releaseVersion>
                             </announceParameters>
                         </configuration>
                         <executions>
